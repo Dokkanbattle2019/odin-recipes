@@ -1,0 +1,16 @@
+.un {
+    background-color: black;
+    color:white;
+}
+
+
+.deux{
+    background: yellow;
+}
+
+.un,
+.deux {
+    font-size:28px;
+    font-family:Helvetica, "Times New Roman", sans-serif;
+    font-weight:bold;
+}
