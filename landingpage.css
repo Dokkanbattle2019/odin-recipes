@@ -1,0 +1,252 @@
+body {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    flex-wrap: wrap;
+}
+
+
+
+img {
+    width: 300px;
+    height: 150px;
+}
+
+.logo {
+    margin-left: 200px;
+    margin-right: auto;
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 900;
+
+}
+
+.header {
+    display: flex;
+    height: 600px;
+    width: auto;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #1F2937;
+    flex: 1;
+    margin: 0;
+
+}
+
+.top {
+    display: flex;
+
+}
+
+
+ul.listeliens {
+    display: flex;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 150px;
+    padding: 0;
+    list-style: none;
+    flex-direction: row;
+}
+
+li {
+    padding: 12px;
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.titre,
+.presentation,
+.inscrire,
+.image1 {
+    display: flex;
+    color: white;
+
+}
+
+.mid {
+    display: flex;
+    flex: 1;
+}
+
+.texte {
+    display: flex;
+    flex-direction: column;
+    margin-left: 200px;
+    margin-top: 100px;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+    width: 400px;
+}
+
+.image1 {
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+    margin-right: 200px;
+}
+
+
+.titre {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+    margin-top: 0;
+}
+
+.inscrire {
+    margin-top: 5px;
+}
+
+button.bouton2 {
+    color: white;
+    padding: 10px 16px;
+    border: white 1px solid;
+    background-color: rgb(0, 145, 255);
+    font-weight: bold;
+    border-radius: 8px;
+
+
+}
+
+button.bouton1 {
+    padding: 8px 16px;
+    color: white;
+    background-color: blue;
+    font-weight: bold;
+    border-radius: 8px;
+
+
+}
+
+.presentation {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 1;
+    margin: 0;
+}
+
+.titrecontent {
+    font-size: 36px;
+    font-weight: 800;
+    text-align: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.listeperso {
+    list-style: none;
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+}
+
+.perso {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+}
+
+.conteneurlisteperso {
+    display: flex;
+    flex: 1 1 auto;
+    height: 275px;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+
+}
+
+.zonecitation {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #E5E7EB;
+}
+
+.textecitation {
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    text-align: center;
+    padding: 100px;
+}
+
+.auteur {
+    color: black;
+    font-size: 16px;
+    font-weight: 900;
+    margin-left: 900px;
+}
+
+.zonenotification {
+    display: flex;
+    padding: 150px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+
+
+
+}
+
+.notification {
+    display: flex;
+    flex-direction: row;
+    height: 150px;
+    background-color: rgb(0, 145, 255);
+    align-items: center;
+    flex: 1 1 0;
+}
+
+.boxnotif {
+
+    padding: 20px;
+    flex: 1 1 auto;
+    margin-top: 20px;
+    max-width: fit-content;
+    margin-left: 90px;
+}
+
+.titrenotif {
+    font-size: 26px;
+    color: white;
+    font-weight: 900;
+
+}
+
+.textenotif {
+    color: white;
+    font-size: 13px;
+}
+
+.inscrire2 {
+    margin-right: 50px;
+}
+
+.footer {
+    display: flex;
+    flex-shrink: 1 1 auto;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    background-color: #1F2937;
+}
+
+.copyright {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: #E5E7EB;
+}
