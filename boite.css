@@ -4,14 +4,17 @@
     font-size:20px;
     box-sizing:border-box;
     font-weight:bold;
-    flex-wrap:nowrap;
+    
 
 }
 
+head, body{
+    height:100%;
+}
 
 .container{
     display:flex;
-    flex-direction:row;
+    flex-direction:column;
     border: 5px solid blue;
     width:600px;
     
@@ -25,24 +28,27 @@
     margin:0px;
     padding:6px;
     justify-content:center;
-    flex-wrap:nowrap;
+    
     
 }
 
 div.un{
     background-color:rgb(141, 2, 255);
     
+    
 }
 
 div.deux{
     background-color:green;
+   
 }
 
 div.trois{
     background-color:orange;
+    
 }
 
-.container div.trois{
-    flex:2;
-    order:2;
+.container >div.trois{
+    
+   
 }
